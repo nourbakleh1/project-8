@@ -96,10 +96,18 @@ body{
     background-color: var(--red-color);
     color: var(--yellow-color);
 }
+
 .our-work ul li{
     padding: 0.5rem 0.75rem;
     border-radius: 6px;
     cursor: pointer;
+}
+@media (max-width:575px) {
+    .our-work ul li{
+        padding: 4px 6px;
+        border-radius: 6px;
+        cursor: pointer;
+    }
 }
 .our-work .box{
     overflow: hidden;
@@ -260,7 +268,7 @@ body{
 .up{
     position: fixed;
     right: -23%;
-    top:90%;
+    top:80%;
     transform: rotate(360deg);
     transition: 1s;
     z-index: 10;
@@ -337,7 +345,13 @@ footer .name{
 }
 footer .email-btn{
     color:white !important;
-    padding: 0.7rem 3rem;
+    padding: 0.2rem 1rem;
+}
+@media (min-width:576px){
+    footer .email-btn{
+        color:white !important;
+        padding: 0.7rem 3rem;
+    }
 }
 footer .test{
     perspective: 350px;
