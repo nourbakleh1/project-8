@@ -268,8 +268,8 @@ body{
 .up{
     position: fixed;
     right: -23%;
-    top:80%;
-    transform: rotate(360deg);
+    top:750px;
+    transform: rotate(180deg);
     transition: 1s;
     z-index: 10;
 }
