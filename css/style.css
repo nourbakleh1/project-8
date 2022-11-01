@@ -273,6 +273,27 @@ body{
     transition: 1s;
     z-index: 10;
 }
+@media (max-height:450px){
+    .up{
+        
+        top:400px;
+       
+    } 
+}
+@media (max-height:575px){
+    .up{
+        
+        top:550px;
+       
+    } 
+}
+@media (max-height:767px){
+    .up{
+        
+        top:650px;
+       
+    } 
+}
 .up.active{
     right: 8%;
     transform: rotate(0deg);
