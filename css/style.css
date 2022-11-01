@@ -290,7 +290,7 @@ body{
 @media (max-height:767px){
     .up{
         
-        top:650px;
+        top:600px;
        
     } 
 }
@@ -391,31 +391,5 @@ footer .title{
     transform-style: preserve-3d;
     backface-visibility: hidden;
 }
-@keyframes change {
-   0%{
-    transform:  rotateX(0deg) rotateY(0deg) scale(1);
-    text-shadow: 2px 0  5px var(--red-color);
 
-   }
-   30%{
-    transform:  rotateX(360deg) rotateY(deg) scale(1);
-    text-shadow: 2px 0  5px var(--secondary-color);
-
-   }
-   50%{
-    transform:  rotateX(0deg)rotateY(360deg)  scale(1);
-    text-shadow: 2px 0  5px var(--section-color);
-
-   }
-   70%{
-    transform:  rotateX(0deg)rotateY(0deg)  scale(1);
-    text-shadow: 2px 0  5px var(--yellow-color);
-
-   }
-   100%{
-    transform:  rotateX(0deg)rotateY(0deg) scale(1.1);
-    text-shadow: 2px 0  5px #517dbe;
-
-   }
-}
 /* end footer */
