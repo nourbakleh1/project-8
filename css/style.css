@@ -50,6 +50,12 @@ body{
     background-color: var(--dark-color);
     
 }
+@media (max-width:450px) {
+    .landing p{
+        width: 250px;
+        margin:30px auto;
+    }
+}
 .landing h1{
     font-size: 40px;
     
